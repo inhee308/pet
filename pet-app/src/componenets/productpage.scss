@@ -1,0 +1,55 @@
+.productpageWrap{
+    .back-btn{
+        margin: 20px auto;
+        padding: 10px 20px;
+        display: flex;
+    }
+    .image-box{
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 500px;
+        img{
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+
+    .profile-box{
+        width: 500px;
+        width: 500px;
+        padding: 16px;
+        margin: 8px auto;
+        border-bottom: 1px solid #979797;
+        .icon{
+            font-size: 24px;
+            margin-right: 10px;
+            color: #406a63;
+        }
+        .product-seller{
+            font-size: 18px;
+            color: #666;
+        }
+    }
+    .contents-box{
+        width: 500px;
+        padding: 16px;
+        margin: 8px auto;
+        .name{
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .price{
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .creatAt{
+            font-size: 12px;
+            color: rgb(204, 204, 204);
+        }
+        .description{}
+        margin-top: 16px;
+    }
+}

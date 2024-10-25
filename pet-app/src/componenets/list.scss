@@ -1,0 +1,72 @@
+.list-container {
+    padding: 50px 30px;
+    box-sizing: border-box;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .listSwiperWrap {
+        display: flex;
+
+        .leftBox {
+            width: 5%;
+            height: 300px;
+            color: #fff;
+            background: #a6c5ee;
+
+            .textBox {
+                position: relative;
+                width: 100%;
+                height: 100%;
+
+                .a {
+                    position: absolute;
+                    top: 5px;
+                    left: 15px;
+                    font-size: 40px;
+                }
+
+                .n {
+                    position: absolute;
+                    top: 55px;
+                    left: 15px;
+                    font-size: 20px;
+                }
+
+                .i {
+                    position: absolute;
+                    top: 75px;
+                    left: 15px;
+                    font-size: 40px;
+                }
+
+                .m {
+                    position: absolute;
+                    top: 130px;
+                    left: 15px;
+                    font-size: 30px;
+                }
+
+                .aa {
+                    position: absolute;
+                    top: 180px;
+                    left: 15px;
+                    font-size: 30px;
+                }
+
+                .l {
+                    position: absolute;
+                    top: 220px;
+                    left: 15px;
+                    font-size: 40px;
+                }
+            }
+        }
+
+        .rightBox {
+            width: 95%;
+        }
+    }
+}
